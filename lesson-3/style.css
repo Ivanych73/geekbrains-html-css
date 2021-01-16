@@ -16,3 +16,12 @@ h1 {
 .input {
     color: red;
 }
+.block {
+    width: 90%;
+    height: 300px;
+    border: 1px solid #000000;
+    background-color: #ccc;
+    background-image: url(https://img.gazeta.ru/files3/777/13060777/20180712_sha_z03_669-pic4_zoom-1500x1500-93614.jpg);
+    background-size: cover;
+    background-position: center;
+}
