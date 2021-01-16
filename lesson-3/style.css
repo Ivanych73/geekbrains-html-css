@@ -42,3 +42,7 @@ body {
 .list {
     list-style-type: none;
 }
+
+.link {
+    color: green;
+}
