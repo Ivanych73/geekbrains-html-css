@@ -1,0 +1,12 @@
+.menu__li:nth-child(3):after {
+content: ' new';
+color: red;
+}
+
+.menu__li::before {
+    content: '* ';
+}
+
+.menu {
+    list-style-type: none;
+}

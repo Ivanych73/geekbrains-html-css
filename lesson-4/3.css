@@ -1,0 +1,17 @@
+.block {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    float: left;
+}
+
+.header {
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+.footer {
+    height: 50px;
+    background-color: red;
+    clear: both;
+}

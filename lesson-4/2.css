@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.block {
+    border: 1px solid #000;
+    width: 350px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 48px;
+    box-sizing: border-box;
+}
+
+.header {
+    margin-top: 50px;
+}
