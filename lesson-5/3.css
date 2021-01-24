@@ -1,0 +1,19 @@
+.content {
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: grey;
+}
+
+.block {
+    width: 100px;
+    height: 50px;
+    border: 1px solid #000;
+}
+.block-2 {
+    align-self: center;
+}
+.block-3 {
+    align-self: flex-end;
+}
