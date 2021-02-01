@@ -1,0 +1,21 @@
+.container {
+    max-width: 650px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.header {
+    min-height: 80px;
+    background-color: forestgreen;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block {
+    max-width: 150px;
+    min-height: 150px;
+    border: 1px solid #000;
+}
