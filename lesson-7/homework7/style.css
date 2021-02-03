@@ -291,6 +291,7 @@ background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 
     .top__info {
         background-position: right 280px;
+        padding-bottom: 120px;
     }
 
     .cards {
@@ -302,9 +303,63 @@ background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
         margin-bottom: 32px;
     }
 
+    .bottom {
+        margin-top: 109px;
+        padding-top: 47px;
+    }
+
+    .bottom__upper {
+        padding-bottom: 64px;
+        padding-left: 124px;
+        padding-right: 124px;
+    }
+
+    .bottom__upper__info {
+        width: 336px;
+    }
+
+    .bottom_button {
+        padding: 3px 35px;
+        margin-top: 40px;
+    }
+
+    .bottom__lower {
+        padding-left: 124px;
+        padding-right: 124px;
+    }
+
+    .bottom_lower_info {
+        flex-direction: column;
+    }
+
+    .bottom_lower_info_item {
+        margin-bottom: 25px;
+    }
+
+    .bottom_lower_info_item:first-child::before {
+        margin-right: 45px;
+    }
+
+    .bottom_lower_info_item:nth-child(2)::before {
+        margin-right: 45px;
+     }
+    
+     .bottom_lower_info_item:last-child::before {
+        margin-right: 45px;
+     }
+
+    .legal_notice {
+        margin-top: 39px;
+    }
 }
 
 @media (max-width: 667px) {
+
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
     .top {
         min-height: 376px;
         padding-bottom: 41px;
@@ -349,6 +404,8 @@ background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 
     .what-we-do {
         padding-top: 48px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .cards {
@@ -357,6 +414,7 @@ background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 
     .card {
         width: 100%;
+        max-width: 359px;
     }
 
     .project_paragraph {
@@ -386,10 +444,100 @@ background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
         left: 16px;
     }
 
+    .bottom {
+        margin-top: 64px;
+        padding-top: 18px;
+        padding-bottom: 32px;
+    }
+
+    .bottom__upper {
+        padding-left: 16px;
+        padding-right: 16px;
+        flex-direction: column;
+        padding-bottom: 41px;
+    }
+
+    .bottom__upper__info {
+        width: 343px;
+    }
+
+    .bottom_header3 {
+        text-align: center;
+    }
+
+    .bottom_paragraph {
+        text-align: center;
+    }
+
+    .bottom_button {
+        padding: 3px 18px;
+    }
+
+    .bottom__lower {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .bottom_lower_info {
+        margin-top: 32px;
+        line-height: 19px;
+    }
+
+    .bottom_lower_info_item {
+        margin-bottom: 17px;
+    }
+
+    .bottom_lower_info_item:first-child::before {
+        margin-right: 23px;
+    }
+
+    .bottom_lower_info_item:nth-child(2)::before {
+        margin-right: 23px;
+     }
+    
+     .bottom_lower_info_item:last-child::before {
+        margin-right: 23px;
+     }
+
+     .legal_notice {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+}
+
+.contacts_top {
+    background-image: url(images/contacts_top.png);
+    background-size: cover;
+    margin-top: 54px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contacts_header {
+    margin-left: 293px;
+    margin-right: 293px;
+}
+
+.contacts_header_header2 {
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.contacts_header_paragraph {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .contacts_content {
     display: flex;
+    margin-top: 57px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .input {
