@@ -347,7 +347,7 @@ background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 
 .contacts__info_list li {
-    margin-top: 16px;
+    margin-top: 14px;
     font-weight: 300;
     font-size: 16px;
     letter-spacing: 0.04em;
@@ -362,6 +362,8 @@ background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
     content: url(images/contacts_phone.svg);
     margin-right: 19px;
     display: block;
+    padding-top: 2px;
+    box-sizing: border-box;
 }
 
 .contacts__info__link {
@@ -380,12 +382,16 @@ background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
     content: url(images/contacts_web.svg);
     margin-right: 18px;
     display: block;
+    padding-top: 2px;
+    box-sizing: border-box;
 }
 
 .contacts__info_online:last-child::before {
     content: url(images/contacts_mail.svg);
     margin-right: 18px;
     display: block;
+    padding-top: 2px;
+    box-sizing: border-box;
 }
 
 .contacts__form {
