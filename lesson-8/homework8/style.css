@@ -124,7 +124,7 @@ background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 
 .arrow {
     margin-left: 24px;
-    align-self: bottom;
+    align-self: center;
 }
 
 .project_paragraph {
@@ -354,6 +354,7 @@ background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
     line-height: 26px;
     color: #1F3F68;
 }
+
 .contacts__info_phone {
     display: flex;
 }
