@@ -517,6 +517,44 @@ background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
     .legal_notice {
         margin-top: 39px;
     }
+
+    .contacts_menu {
+        padding-top: 10px;
+    }
+
+    .contacts_top {
+        margin-top: 46px;
+    }
+
+    .contacts_header {
+        margin-left: 124px;
+        margin-right: 124px;
+    }
+
+    .contacts_content {
+        margin-left: 124px;
+        margin-right: 124px;
+        margin-bottom: 64px;
+        flex-direction: column;
+    }
+
+    .contacts__info {
+        margin-bottom: 64px;
+    }
+
+    .contacts__form {
+        padding: 54px;
+        max-width: 520px;
+    }
+
+    .map {
+        padding: 0;
+        margin: 0;
+    }
+
+    .contacts_bottom {
+        margin-top: 64px;
+    }
 }
 
 @media (max-width: 667px) {
@@ -526,6 +564,10 @@ background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
         padding-right: 16px;
     }
 
+    .menu {
+        padding-top: 16px;
+    }
+
     .top {
         min-height: 376px;
         padding-bottom: 41px;
@@ -533,7 +575,7 @@ background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
     }
 
     .top_box {
-        padding-top: 24px;
+        padding-top: 0;
     }
     
     .top__info {
@@ -611,7 +653,7 @@ background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
     }
 
     .bottom {
-        margin-top: 64px;
+        margin-top: 32px;
         padding-top: 18px;
         padding-bottom: 32px;
     }
@@ -672,4 +714,70 @@ background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
         text-align: center;
     }
 
-}
+    .contacts_top {
+        margin-top: 30px;
+    }
+
+    .contacts_header {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .contacts_header_header2 {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 32px;
+    }
+
+    .contacts_header_paragraph {
+        font-size: 16px;
+    }
+
+    .contacts_content {
+        margin-top: 46px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+
+    .contacts__info {
+        margin-bottom: 32px;
+    }
+
+    .contacts__info_image {
+        margin-bottom: 32px;
+    }
+
+    .contacts__info_header4 {
+        margin-top: 32px;
+    }
+
+    .contacts__form {
+        padding: 32px;
+        width: auto;
+    }
+
+    .contacts__form_header4 {
+        font-size: 16px;
+        margin-bottom: 31px;
+    }
+
+    .input_title {
+        font-size: 14px;
+    }
+
+    .input {
+        margin-top: 5px;
+        margin-bottom: 21px;
+    }
+
+    .button {
+        height: 53px;
+        margin-top: 25px;
+    }
+
+    .map {
+        padding: 0;
+        margin: 0;
+    }
+}   
